@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +9,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+/* <App /> -> 이렇게 쓰는 건 리액트가 컴포넌트를 다루는 방식임
+리액트는 컴포넌트를 사용해서 html처럼 작성하려는 경우에 필요해
+자바스크립트와 html 사이의 이러한 조합을 jsx라고 불러 */
